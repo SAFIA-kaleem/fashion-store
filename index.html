@@ -19,14 +19,22 @@
         <li><a href="#bags">Bags</a></li>
         <li><a href="#shoes">Shoes</a></li>
         <li><a href="#watches">Watches</a></li>
+        <li><a href="#reviews">Reviews</a></li>
         <li><a href="#contact" class="nav-btn">Shop Now</a></li>
       </ul>
       <button class="hamburger" id="hamburger">☰</button>
     </nav>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero Section with Automatic Image Slider Background -->
   <section class="hero" id="home">
+    <!-- Slider Background Images -->
+    <div class="hero-slider">
+      <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=80')"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1600&q=80')"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1600&q=80')"></div>
+    </div>
+    
     <div class="hero-content">
       <span class="badge">✨ New Autumn Collection</span>
       <h1>Elevate Your Everyday Elegance</h1>
@@ -44,7 +52,6 @@
       <p>Find your signature look with our premium pieces.</p>
     </div>
     <div class="category-grid">
-      <!-- Category 1: Bags -->
       <div class="cat-card">
         <div class="cat-img bag-bg"></div>
         <div class="cat-info">
@@ -53,7 +60,6 @@
           <a href="#products" class="shop-link">Browse Bags →</a>
         </div>
       </div>
-      <!-- Category 2: Shoes -->
       <div class="cat-card" id="shoes">
         <div class="cat-img shoe-bg"></div>
         <div class="cat-info">
@@ -62,7 +68,6 @@
           <a href="#products" class="shop-link">Browse Shoes →</a>
         </div>
       </div>
-      <!-- Category 3: Watches -->
       <div class="cat-card" id="watches">
         <div class="cat-img watch-bg"></div>
         <div class="cat-info">
@@ -81,7 +86,6 @@
       <p>Handpicked favorites loved by our trendsetters.</p>
     </div>
     <div class="product-grid">
-      <!-- Product 1 -->
       <div class="product-card">
         <div class="product-img bag-p1">
           <span class="tag">Bestseller</span>
@@ -92,7 +96,6 @@
           <button class="cart-btn">Add to Cart</button>
         </div>
       </div>
-      <!-- Product 2 -->
       <div class="product-card">
         <div class="product-img shoe-p1">
           <span class="tag">New</span>
@@ -103,7 +106,6 @@
           <button class="cart-btn">Add to Cart</button>
         </div>
       </div>
-      <!-- Product 3 -->
       <div class="product-card">
         <div class="product-img watch-p1">
           <span class="tag">Limited</span>
@@ -113,6 +115,31 @@
           <p class="price">$189.00</p>
           <button class="cart-btn">Add to Cart</button>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews Section -->
+  <section class="reviews" id="reviews">
+    <div class="section-title">
+      <h2>What Our Clients Say</h2>
+      <p>Hear from women who love our boutique collections.</p>
+    </div>
+    <div class="review-grid">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"The leather tote bag quality is unmatched! It looks so elegant for office and daily wear. Completely in love with it."</p>
+        <h4>- Ayesha Khan</h4>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"The rose gold watch is my absolute favorite accessory now. Fast shipping and gorgeous packaging!"</p>
+        <h4>- Fatima Noor</h4>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Stilettos are surprisingly comfortable and look extremely chic. Will definitely order more shoes soon."</p>
+        <h4>- Zara Ahmed</h4>
       </div>
     </div>
   </section>
