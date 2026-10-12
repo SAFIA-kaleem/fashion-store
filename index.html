@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe & Co. | Bags, Shoes & Watches</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Luxe <span>& Co.</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#bags">Bags</a></li>
+        <li><a href="#shoes">Shoes</a></li>
+        <li><a href="#watches">Watches</a></li>
+        <li><a href="#contact" class="nav-btn">Shop Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="badge">✨ New Autumn Collection</span>
+      <h1>Elevate Your Everyday Elegance</h1>
+      <p>Discover our exclusive curated selection of luxury handbags, chic footwear, and timeless watches designed for the modern woman.</p>
+      <div class="hero-buttons">
+        <a href="#bags" class="btn primary-btn">Explore Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories" id="bags">
+    <div class="section-title">
+      <h2>Shop By Category</h2>
+      <p>Find your signature look with our premium pieces.</p>
+    </div>
+    <div class="category-grid">
+      <!-- Category 1: Bags -->
+      <div class="cat-card">
+        <div class="cat-img bag-bg"></div>
+        <div class="cat-info">
+          <h3>Luxury Handbags</h3>
+          <p>Totes, crossbodies & evening clutches crafted with precision.</p>
+          <a href="#products" class="shop-link">Browse Bags →</a>
+        </div>
+      </div>
+      <!-- Category 2: Shoes -->
+      <div class="cat-card" id="shoes">
+        <div class="cat-img shoe-bg"></div>
+        <div class="cat-info">
+          <h3>Designer Footwear</h3>
+          <p>Stilettos, flats, and sneakers for every occasion.</p>
+          <a href="#products" class="shop-link">Browse Shoes →</a>
+        </div>
+      </div>
+      <!-- Category 3: Watches -->
+      <div class="cat-card" id="watches">
+        <div class="cat-img watch-bg"></div>
+        <div class="cat-info">
+          <h3>Timeless Watches</h3>
+          <p>Elegant timepieces that make a statement.</p>
+          <a href="#products" class="shop-link">Browse Watches →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="products" id="products">
+    <div class="section-title">
+      <h2>Featured Arrivals</h2>
+      <p>Handpicked favorites loved by our trendsetters.</p>
+    </div>
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <div class="product-img bag-p1">
+          <span class="tag">Bestseller</span>
+        </div>
+        <div class="product-details">
+          <h4>Classic Leather Tote</h4>
+          <p class="price">$149.00</p>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="product-card">
+        <div class="product-img shoe-p1">
+          <span class="tag">New</span>
+        </div>
+        <div class="product-details">
+          <h4>Velvet Stiletto Heels</h4>
+          <p class="price">$120.00</p>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="product-card">
+        <div class="product-img watch-p1">
+          <span class="tag">Limited</span>
+        </div>
+        <div class="product-details">
+          <h4>Rose Gold Mesh Watch</h4>
+          <p class="price">$189.00</p>
+          <button class="cart-btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-content">
+      <h3>Luxe & Co. Boutique</h3>
+      <p>Your ultimate destination for luxury women's accessories.</p>
+      <p class="copyright">&copy; 2026 Luxe & Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
